@@ -1,0 +1,62 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Tue, 27 Aug 2024 12:50:20 at https://allwhitelabel.com/
+(httrack https://allwhitelabel.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:55:45	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=1900
+12:55:45	Warning: 	File has moved from https://allwhitelabel.com/?p=1900 to https://allwhitelabel.com/white-label-online-casino-software/
+12:55:45	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2750
+12:55:45	Warning: 	File has moved from https://allwhitelabel.com/?p=2750 to https://allwhitelabel.com/turnkey-casino-software/
+12:55:45	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2755
+12:55:45	Warning: 	File has moved from https://allwhitelabel.com/?p=2755 to https://allwhitelabel.com/self-service-casino/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2121
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2121 to https://allwhitelabel.com/casino-games-integration/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2253
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2253 to https://allwhitelabel.com/casino-games-aggregator/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2251
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2251 to https://allwhitelabel.com/online-casino-payment-solutions/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2245
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2245 to https://allwhitelabel.com/bonus-system-standalone/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2243
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2243 to https://allwhitelabel.com/sportsbook-solutions-integration-api/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2249
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2249 to https://allwhitelabel.com/bank-accounts/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2247
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2247 to https://allwhitelabel.com/licensing/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2241
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2241 to https://allwhitelabel.com/live-casino-bundle/
+12:55:46	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2239
+12:55:46	Warning: 	File has moved from https://allwhitelabel.com/?p=2239 to https://allwhitelabel.com/slots-bundle/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2677
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=2677 to https://allwhitelabel.com/online-casino-software/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=3007
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=3007 to https://allwhitelabel.com/live-casino-software/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=3008
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=3008 to https://allwhitelabel.com/casino-games/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=3009
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=3009 to https://allwhitelabel.com/lottery-bingo/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=3010
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=3010 to https://allwhitelabel.com/casino-tournament/
+12:55:47	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=3011
+12:55:47	Warning: 	File has moved from https://allwhitelabel.com/?p=3011 to https://allwhitelabel.com/streaming-platform/
+12:55:49	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2363
+12:55:49	Warning: 	File has moved from https://allwhitelabel.com/?p=2363 to https://allwhitelabel.com/white-label-betting-platform/
+12:55:49	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2701
+12:55:49	Warning: 	File has moved from https://allwhitelabel.com/?p=2701 to https://allwhitelabel.com/white-label-casino/
+12:55:49	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2832
+12:55:49	Warning: 	File has moved from https://allwhitelabel.com/?p=2832 to https://allwhitelabel.com/about-us/
+12:55:49	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=2719
+12:55:49	Warning: 	File has moved from https://allwhitelabel.com/?p=2719 to https://allwhitelabel.com/contact-us/
+12:55:49	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=4411
+12:55:49	Warning: 	File has moved from https://allwhitelabel.com/?p=4411 to https://allwhitelabel.com/what-is-a-white-label-sports-betting-platform/
+12:55:49	Error: 	"Method Not Allowed" (405) at link https://allwhitelabel.com/xmlrpc.php (from https://allwhitelabel.com/what-is-a-white-label-sports-betting-platform/)
+12:55:51	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=4408
+12:55:51	Warning: 	File has moved from https://allwhitelabel.com/?p=4408 to https://allwhitelabel.com/comparison-of-offline-and-online-sports-betting-businesses/
+12:55:51	Warning: 	Moved Permanently for https://allwhitelabel.com/?p=4402
+12:55:51	Warning: 	File has moved from https://allwhitelabel.com/?p=4402 to https://allwhitelabel.com/how-to-begin-and-extend-your-sports-betting-business/
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 32 seconds : 327 links scanned, 300 files written (15857949 bytes overall) [8732946 bytes received at 26304 bytes/sec], 9117855 bytes transferred using HTTP compression in 124 files, ratio 20%, 9.9 requests per connection
+(1 errors, 50 warnings, 0 messages)

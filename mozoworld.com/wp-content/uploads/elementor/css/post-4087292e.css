@@ -1,0 +1,744 @@
+.elementor-4087 .elementor-element.elementor-element-5f41cdc{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--gap:0px 0px;--background-transition:0.3s;}.elementor-4087 .elementor-element.elementor-element-2dd507d{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-9e65e8b{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-8170edc{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-754b597{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-ec0eb83{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--background-transition:0.3s;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:10px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-4c502e3{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-05d5549{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-4087 .elementor-element.elementor-element-ec0877e{--display:flex;--min-height:250px;--background-transition:0.3s;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}/* Start custom CSS for html, class: .elementor-element-e4e3fa7 */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+  
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+    background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+/*.box .front .center {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  text-align: center;*/
+/*}*/
+
+.center{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    row-gap:1ch;
+    padding-top: 15%
+}
+
+
+.box .front .center img {
+  width: 50%;
+  /*height: 100%;*/
+}
+.box .front .center h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-6ce9094 */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+
+.center{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    row-gap:1ch;
+    padding-top: 15%
+}
+
+
+.box .front .center img {
+  width: 50%;
+  /*height: 100%;*/
+}
+.box .front .center h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-89d6826 */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+  
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+    background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+
+
+.center6{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    row-gap:1ch;
+    padding-top: 15%
+}
+
+
+.box .front .center6 img {
+  width: 35%;
+  /*height: 100%;*/
+}
+.box .front .center6 h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-7519adf */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+  
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+    background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+
+.center1{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.2ch;
+    padding-top: 15%
+}
+
+
+.box .front .center1 img {
+  width: 40%;
+  /*height: 100%;*/
+}
+.box .front .center1 h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-ce5634d */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+  
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+    background: #2E2E2E;
+   border-left: 5px solid #FF6217;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+
+
+.center4{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    /*row-gap: 0.2ch;*/
+    padding-top: 15%
+}
+
+
+.box .front .center4 img {
+  width: 32%;
+  /*height: 100%;*/
+}
+.box .front .center4 h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-a32ef94 */.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+
+.demo-btn {
+  padding: 10px;
+  color: #fff;
+  background: #ff6217;
+    border-left: 2px solid white;
+  border-radius: 10px;
+  text-align: center !important;
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: #2E2E2E;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+  border-radius: 10px;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+/**********  front  **************/
+/*.box .front .center {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  text-align: center;*/
+/*}*/
+
+.center3{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    /*row-gap:1ch;*/
+    padding-top: 15%
+}
+
+
+.box .front .center3 img {
+  width: 30%;
+  /*height: 100%;*/
+}
+.box .front .center3 h1 {
+  font-size: 25px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+}
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.demo-btn-back {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    background: #ff6217;
+    border-left: 2px solid white;
+    border-radius: 10px;
+}
+.demo-btn-back a{
+    color: #fff
+}
+.box .back .row img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.box .back .row h1 {
+  font-size: 25px;
+  color: #262626;
+  white-space: nowrap;
+  display: inline-block;
+}
+.box .back .row span {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box .back .row span::before {
+  content: "";
+  font-family: "fontAwesome";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  color: #fff;
+  font-size: 20px;
+}/* End custom CSS */
